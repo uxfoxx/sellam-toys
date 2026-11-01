@@ -1,6 +1,6 @@
-# Sellam Toy Co. — demo website
+# Abee Tex — demo website
 
-Demo site for a fictional Sri Lankan toy importer and distributor: a retail store for families and a trade desk / buyer portal for shops. All data is fictional; the cart, checkout and trade portal work as a front-end demo only (state is kept in the browser).
+Demo site for Abee Tex, a toy importer and distributor in Maharagama, Sri Lanka: a retail store for families and a trade desk / buyer portal for shops. All data is fictional; the cart, checkout and trade portal work as a front-end demo only (state is kept in the browser).
 
 Static site: open `index.html`, or serve the folder with any static host (GitHub Pages, Netlify).
 
