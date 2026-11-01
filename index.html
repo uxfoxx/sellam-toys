@@ -2487,7 +2487,7 @@ function fxFrame(t){const T=fxTargets,y=scrollY,vh=innerHeight;vel+=((y-lastY)-v
  requestAnimationFrame(fxFrame)}
 
 /* ================= boot ================= */
-function renderCredits(){const el=$("#credits");if(!el)return;el.innerHTML=Object.entries(MEDIA).map(([id,a])=>`<div><b style="color:var(--rink)">${byId[id].name}</b> — ${a.map(x=>`<a href="${x.u}" target="_blank" rel="noopener">${x.a}</a> (${x.l})`).join(", ")}</div>`).join("")+`<div>All photos from Wikimedia Commons under the licences shown. Products are fictional; photos show similar items.</div>`}
+function renderCredits(){const el=$("#credits");if(!el)return;el.innerHTML=Object.entries(MEDIA).map(([id,a])=>`<div><b style="color:var(--rink)">${byId[id].name}</b> — ${a.map(x=>`<a href="${x.u}" target="_blank" rel="noopener">${x.a}</a> (${x.l})`).join(", ")}</div>`).join("")+`<div>All photos from Wikimedia Commons under the licences shown. District boundaries simplified from the <a href="https://github.com/thejeshgn/srilanka" target="_blank" rel="noopener">thejeshgn/srilanka</a> open dataset. Products are fictional; photos show similar items.</div>`}
 renderCredits();
 renderRetailHome();renderTradeSite();renderRCart();renderPad();
 $$('[data-count]').forEach(el=>io.observe(el));io.observe($('#heroRoute'));
